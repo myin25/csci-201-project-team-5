@@ -1,0 +1,19 @@
+src/main/java/edu/usc/team5/dao/BaseDAO.java
+  s_20294624758283::t_1461bda1b6dd4b 1-221
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "612d73c4df8b2209466b2af174b3bffc29b609e7",
+  "prompts": {},
+  "sessions": {
+    "s_20294624758283": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2913377f-b803-4b31-aac5-f36dd07859fa",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Melody Yin <yinmelody8@gmail.com>"
+    }
+  }
+}
