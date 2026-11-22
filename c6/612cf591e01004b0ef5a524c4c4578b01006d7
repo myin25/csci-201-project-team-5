@@ -1,0 +1,19 @@
+Dockerfile.vercel
+  s_20294624758283::t_e8d7aa9e52ccbd 1-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "c6612cf591e01004b0ef5a524c4c4578b01006d7",
+  "prompts": {},
+  "sessions": {
+    "s_20294624758283": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2913377f-b803-4b31-aac5-f36dd07859fa",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Melody Yin <yinmelody8@gmail.com>"
+    }
+  }
+}
