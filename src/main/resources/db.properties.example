@@ -1,0 +1,9 @@
+# Copy this file to db.properties (same folder) and fill in your own MySQL password.
+# db.properties is gitignored, so your password never gets pushed.
+#
+# In production (Vercel) these come from the DB_URL, DB_USERNAME and DB_PASSWORD
+# environment variables instead, which take priority over this file.
+
+db.url=jdbc:mysql://localhost:3306/ticket_auction?connectionTimeZone=UTC&forceConnectionTimeZoneToSession=true
+db.username=root
+db.password=CHANGE_ME

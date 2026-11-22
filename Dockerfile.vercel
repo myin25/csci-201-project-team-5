@@ -1,0 +1,18 @@
+# Production build for Vercel's container runtime (see the Deployment Document).
+# Vercel detects this file by name. Set PORT=8080 in the Vercel project's environment
+# variables, plus DB_URL, DB_USERNAME and DB_PASSWORD for Supabase.
+
+# Stage 1: build the WAR file
+FROM maven:3.9-eclipse-temurin-21 AS build
+WORKDIR /app
+COPY pom.xml .
+RUN mvn -q dependency:go-offline
+COPY src ./src
+RUN mvn -q clean package -DskipTests
+
+# Stage 2: run it on Tomcat at the site root
+FROM tomcat:10.1-jre21-temurin
+RUN rm -rf /usr/local/tomcat/webapps/*
+COPY --from=build /app/target/ticket-auction.war /usr/local/tomcat/webapps/ROOT.war
+EXPOSE 8080
+CMD ["catalina.sh", "run"]
