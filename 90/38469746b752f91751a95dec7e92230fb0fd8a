@@ -1,0 +1,19 @@
+src/main/java/edu/usc/team5/servlet/package-info.java
+  s_20294624758283::t_ed2d1b83732992 1-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "9038469746b752f91751a95dec7e92230fb0fd8a",
+  "prompts": {},
+  "sessions": {
+    "s_20294624758283": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2913377f-b803-4b31-aac5-f36dd07859fa",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Melody Yin <yinmelody8@gmail.com>"
+    }
+  }
+}
