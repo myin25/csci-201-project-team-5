@@ -1,0 +1,19 @@
+src/main/java/edu/usc/team5/realtime/package-info.java
+  s_20294624758283::t_531eecbbbc18b1 1-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "48702ef34550ba3c194b1f93a58165b1892b7949",
+  "prompts": {},
+  "sessions": {
+    "s_20294624758283": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2913377f-b803-4b31-aac5-f36dd07859fa",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Melody Yin <yinmelody8@gmail.com>"
+    }
+  }
+}
